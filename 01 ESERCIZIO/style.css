@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background: url(background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.conteiner{
+  width: 1100px;
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 50px;
+  border-radius: 20px;
+  padding: 100px
+}
+
+header > img{
+  width: 235px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > h2{
+  text-align: center;
+  color: #00dd00;
+}
+
+header > div{
+  background-color: #00dd00;
+  width: 1050px;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+input{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  border: solid 1px gray;
+  border-radius: 3px;
+}
+
+main{
+  color: white;
+  padding: 10px;
+}
+
+main h3{
+  display: inline;
+}
+
+main > div{
+  font-size: 15px;
+}
+
+.row:before{
+  content: "\21A6";
+}
+
+.arancione{
+    width: 350px;
+    background-color: #f5b453;
+    border-radius: 5px;
+    padding: 15px
+}
+
+.verde{
+    width: 600px;
+    background-color: #1ec31e;
+    border-radius: 5px;
+    padding: 15px
+}
+
+.rosso{
+  width: 150px;
+  background-color: #be4141;
+  border-radius: 5px;
+  padding: 15px
+}
+
+.monopattino{
+  margin-top: 20px;
+}
